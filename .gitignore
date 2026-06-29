@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 数据（太大不适合GitHub）
+data/539.db
+data/539_all_history.json
+data/backtest_history.json
+
+# 报告（每次生成不同）
+reports/*.json
+reports/*.html
+
+# 前端数据（每次生成不同）
+frontend/dashboard_data.json
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# 调试脚本
+scripts/debug_*.py
+scripts/diagnosis.py
+scripts/deep_optimize*.py
+
+# 环境
+.env
+venv/

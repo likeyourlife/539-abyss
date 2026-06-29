@@ -1,0 +1,24 @@
+{
+  "best_weights_top10": {
+    "recency": 0.15,
+    "cluster": 0.2,
+    "momentum": 0.25,
+    "coverage": 0.3999999999999999
+  },
+  "best_accuracy_top10": 0.24125,
+  "best_window": 200,
+  "best_weights_top2": {
+    "recency": 0.35,
+    "cluster": 0.15,
+    "momentum": 0.25,
+    "coverage": 0.25
+  },
+  "best_accuracy_top2": 0.7658227848101266,
+  "best_weights_top5": {
+    "recency": 0.15,
+    "cluster": 0.2,
+    "momentum": 0.25,
+    "coverage": 0.3999999999999999
+  },
+  "best_accuracy_top5": 0.5025316455696203
+}
