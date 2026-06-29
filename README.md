@@ -34,7 +34,13 @@ python3 539cli.py update
 
 ### GitHub Pages（在线静态版）
 
-访问 GitHub Pages 地址查看静态分析报告（每次 push 自动更新数据）
+访问 https://likeyourlife.github.io/539-abyss/ 查看分析Dashboard
+
+数据更新方式：
+```bash
+# 生成新数据并推送到GitHub Pages
+python3 scripts/push_to_pages.py
+```
 
 ## 架构
 
@@ -77,6 +83,6 @@ python3 539cli.py update
 
 ## 许可
 
-Private Repository - 仅供个人使用
+Public Repository - GitHub Pages Dashboard
 
 ⚠️ 提示：彩票本质随机，分析结果仅供参考，请理性投注
