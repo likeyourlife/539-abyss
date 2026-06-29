@@ -6,10 +6,9 @@ __pycache__/
 dist/
 build/
 
-# 数据（太大不适合GitHub）
+# 数据（太大不适合GitHub）- 但保留backtest_history用于离线展示
 data/539.db
 data/539_all_history.json
-data/backtest_history.json
 
 # 报告（每次生成不同）
 reports/*.json

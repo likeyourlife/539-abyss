@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2026-06-29",
+    "total_draws": 1020,
+    "best_strategy": "momentum_heavy",
+    "best_accuracy_pct": 87.71,
+    "baseline_pct": 87.18,
+    "improvement_pp": 0.53,
+    "all_strategies": {
+      "momentum_heavy": {
+        "accuracy_pct": 87.71,
+        "improvement_pp": 0.53,
+        "perfect_count": 210,
+        "total_periods": 920
+      },
+      "coverage_heavy": {
+        "accuracy_pct": 87.68,
+        "improvement_pp": 0.51,
+        "perfect_count": 221,
+        "total_periods": 920
+      },
+      "recency_momentum": {
+        "accuracy_pct": 87.6,
+        "improvement_pp": 0.42,
+        "perfect_count": 211,
+        "total_periods": 920
+      },
+      "social_momentum": {
+        "accuracy_pct": 87.68,
+        "improvement_pp": 0.51,
+        "perfect_count": 204,
+        "total_periods": 920
+      },
+      "balanced_8": {
+        "accuracy_pct": 87.61,
+        "improvement_pp": 0.43,
+        "perfect_count": 210,
+        "total_periods": 920
+      },
+      "v2_default": {
+        "accuracy_pct": 87.7,
+        "improvement_pp": 0.52,
+        "perfect_count": 203,
+        "total_periods": 920
+      },
+      "signal_only": {
+        "accuracy_pct": 87.41,
+        "improvement_pp": 0.23,
+        "perfect_count": 202,
+        "total_periods": 920
+      }
+    },
+    "weights_used": {
+      "frequency": 0.05,
+      "recency": 0.15,
+      "interval": 0.05,
+      "deviation": 0.05,
+      "cluster": 0.1,
+      "momentum": 0.4,
+      "coverage": 0.15,
+      "cooccurrence": 0.05
+    },
+    "target_accuracy": 87.49,
+    "status": "PASS"
+  }
+]

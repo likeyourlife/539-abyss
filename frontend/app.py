@@ -263,9 +263,15 @@ def backtest_compare():
 
 
 if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--port', type=int, default=5390)
+    parser.add_argument('--host', type=str, default='0.0.0.0')
+    args = parser.parse_args()
+    
     print("✦ 今彩539 Dashboard API 服务启动")
     print(f"   项目路径: {project_root}")
-    print(f"   访问地址: http://localhost:5390")
+    print(f"   访问地址: http://localhost:{args.port}")
     print()
     
     # 首次启动自动加载已有数据
@@ -275,4 +281,4 @@ if __name__ == '__main__':
             analysis_status["last_result"] = json.load(f)
         print("   已加载上次分析数据")
     
-    app.run(host='0.0.0.0', port=5390, debug=False)
+    app.run(host=args.host, port=args.port, debug=False)
