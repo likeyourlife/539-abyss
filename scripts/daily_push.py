@@ -95,7 +95,17 @@ def run_daily_analysis():
     with open(json_path, "w") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"5. 结果已保存: {json_path}")
-    
+
+    # 6. 更新GitHub Pages Dashboard数据
+    print("6. 更新GitHub Pages...")
+    gen_script = os.path.join(project_root, "scripts", "generate_dashboard_data.py")
+    push_script = os.path.join(project_root, "scripts", "push_to_pages.py")
+    try:
+        os.system(f"/Users/ioorule/.workbuddy/binaries/python/envs/default/bin/python3 {gen_script}")
+        os.system(f"/Users/ioorule/.workbuddy/binaries/python/envs/default/bin/python3 {push_script}")
+    except Exception as e:
+        print(f"   GitHub Pages更新失败: {e}")
+
     return output
 
 if __name__ == "__main__":
