@@ -35,23 +35,42 @@
 │   ├── run_analysis.py          # Skill快速路径主脚本
 │   ├── run_backtest.py          # 回测脚本
 │   ├── update_data.py           # 数据更新脚本
+│   ├── daily_push.py            # 每日推送脚本（采集→回测→预测→JSON）
+│   ├── weekly_backtest.py       # 每周深度回测+引擎自动学习
+│   ├── generate_dashboard_data.py # Dashboard数据生成
 │   └── config.py                # 路径配置
+├── frontend/
+│   └── index.html               # Dashboard前端（Chart.js图表）
 ├── data/
 │   ├── 539.db                   # SQLite数据库
-│   └── 539_all_history.json     # JSON备份
+│   ├── 539_all_history.json     # JSON备份
+│   └── backtest_history.json    # 回测历史记录
 ├── reports/                     # 报告输出目录
 ├── docs/
 │   └── dev_plan_v2.md           # 开发计划书
 └── 539cli.py                    # CLI入口
 ```
 
+### 专家包路径
+~/.workbuddy/plugins/marketplaces/my-experts/plugins/539-abyss/
+- 专家名：伍叁玖分析专家，花名Abyss
+- Agent型，categoryId=08-FinanceInvestment
+
 ### Skill路径
 ~/.workbuddy/skills/539-analyzer/SKILL.md（用户级，跨项目可用）
+
+### 自动化
+- 539每日分析推送：周一至周六14:00（采集→回测→预测→企业微信推送）
+- 539周一深度回测：每周一10:00（策略对比→达标检查→自动微调权重）
+
+### GitHub仓库
+https://github.com/likeyourlife/539-abyss（private）
+- gh CLI：~/bin/gh（已认证 likeyourlife 账号）
 
 ## 数据来源
 - 主源：i539.tw（近20期，主页table lau-history结构）
 - 备源：lottolyzer（全量，img class="ball" alt属性解析）
-- 当前数据：1000期（2023-04-26 ~ 2026-06-27）
+- 当前数据：1020期（2023-04-26 ~ 2026-06-27，含i539+lottolyzer最新同步）
 
 ## 关键发现（v2.1 深度优化后 2026-06-29）
 - **诊断发现**：原5维度中3个（frequency/interval/deviation）方向反了！
