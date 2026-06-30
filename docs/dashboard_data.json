@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T09:41:57.418576",
+  "generated_at": "2026-06-30T10:56:24.849250",
   "total_draws": 1022,
   "latest_draw": {
     "date": "2026-06-29",
@@ -15,115 +15,141 @@
     "top2": [
       {
         "number": 27,
-        "label": "27"
+        "label": "27",
+        "consecutive_miss": 18
       },
       {
         "number": 7,
-        "label": "07"
+        "label": "07",
+        "consecutive_miss": 12
       }
     ],
     "top4": [
       {
         "number": 27,
-        "label": "27"
+        "label": "27",
+        "consecutive_miss": 18
       },
       {
         "number": 7,
-        "label": "07"
+        "label": "07",
+        "consecutive_miss": 12
       },
       {
         "number": 28,
-        "label": "28"
+        "label": "28",
+        "consecutive_miss": 12
       },
       {
         "number": 5,
-        "label": "05"
+        "label": "05",
+        "consecutive_miss": 16
       }
     ],
     "top5": [
       {
         "number": 27,
-        "label": "27"
+        "label": "27",
+        "consecutive_miss": 18
       },
       {
         "number": 7,
-        "label": "07"
+        "label": "07",
+        "consecutive_miss": 12
       },
       {
         "number": 28,
-        "label": "28"
+        "label": "28",
+        "consecutive_miss": 12
       },
       {
         "number": 5,
-        "label": "05"
+        "label": "05",
+        "consecutive_miss": 16
       },
       {
         "number": 1,
-        "label": "01"
+        "label": "01",
+        "consecutive_miss": 12
       }
     ],
     "top10": [
       {
         "number": 27,
-        "label": "27"
+        "label": "27",
+        "consecutive_miss": 18
       },
       {
         "number": 7,
-        "label": "07"
+        "label": "07",
+        "consecutive_miss": 12
       },
       {
         "number": 28,
-        "label": "28"
+        "label": "28",
+        "consecutive_miss": 12
       },
       {
         "number": 5,
-        "label": "05"
+        "label": "05",
+        "consecutive_miss": 16
       },
       {
         "number": 1,
-        "label": "01"
+        "label": "01",
+        "consecutive_miss": 12
       },
       {
         "number": 37,
-        "label": "37"
+        "label": "37",
+        "consecutive_miss": 20
       },
       {
         "number": 20,
-        "label": "20"
+        "label": "20",
+        "consecutive_miss": 18
       },
       {
         "number": 25,
-        "label": "25"
+        "label": "25",
+        "consecutive_miss": 10
       },
       {
         "number": 35,
-        "label": "35"
+        "label": "35",
+        "consecutive_miss": 32
       },
       {
         "number": 12,
-        "label": "12"
+        "label": "12",
+        "consecutive_miss": 24
       }
     ],
     "recommended": [
       {
         "number": 14,
-        "label": "14"
+        "label": "14",
+        "consecutive_miss": 2
       },
       {
         "number": 21,
-        "label": "21"
+        "label": "21",
+        "consecutive_miss": 2
       },
       {
         "number": 34,
-        "label": "34"
+        "label": "34",
+        "consecutive_miss": 0
       },
       {
         "number": 32,
-        "label": "32"
+        "label": "32",
+        "consecutive_miss": 2
       },
       {
         "number": 26,
-        "label": "26"
+        "label": "26",
+        "consecutive_miss": 4
       }
     ]
   },
@@ -137,7 +163,8 @@
       "is_recommended": false,
       "momentum_score": 86.0,
       "recency_score": 87.4103,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 18
     },
     {
       "number": 7,
@@ -148,7 +175,8 @@
       "is_recommended": false,
       "momentum_score": 92.0,
       "recency_score": 70.4103,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 12
     },
     {
       "number": 28,
@@ -159,7 +187,8 @@
       "is_recommended": false,
       "momentum_score": 100.0,
       "recency_score": 70.4103,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 12
     },
     {
       "number": 5,
@@ -170,7 +199,8 @@
       "is_recommended": false,
       "momentum_score": 92.0,
       "recency_score": 86.7436,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 16
     },
     {
       "number": 1,
@@ -181,7 +211,8 @@
       "is_recommended": false,
       "momentum_score": 86.0,
       "recency_score": 70.4103,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 12
     },
     {
       "number": 37,
@@ -192,7 +223,8 @@
       "is_recommended": false,
       "momentum_score": 74.0,
       "recency_score": 88.0769,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 20
     },
     {
       "number": 20,
@@ -203,7 +235,8 @@
       "is_recommended": false,
       "momentum_score": 98.0,
       "recency_score": 87.4103,
-      "cluster_score": 53.6
+      "cluster_score": 53.6,
+      "consecutive_miss": 18
     },
     {
       "number": 25,
@@ -214,7 +247,8 @@
       "is_recommended": false,
       "momentum_score": 100.0,
       "recency_score": 59.7436,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 10
     },
     {
       "number": 35,
@@ -225,7 +259,8 @@
       "is_recommended": false,
       "momentum_score": 74.0,
       "recency_score": 92.0769,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 32
     },
     {
       "number": 12,
@@ -236,7 +271,8 @@
       "is_recommended": false,
       "momentum_score": 80.0,
       "recency_score": 89.4103,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 24
     },
     {
       "number": 39,
@@ -247,7 +283,8 @@
       "is_recommended": false,
       "momentum_score": 68.0,
       "recency_score": 92.0769,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 32
     },
     {
       "number": 38,
@@ -258,7 +295,8 @@
       "is_recommended": false,
       "momentum_score": 68.0,
       "recency_score": 94.0769,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 38
     },
     {
       "number": 2,
@@ -269,7 +307,8 @@
       "is_recommended": false,
       "momentum_score": 86.0,
       "recency_score": 59.7436,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 10
     },
     {
       "number": 19,
@@ -280,7 +319,8 @@
       "is_recommended": false,
       "momentum_score": 68.0,
       "recency_score": 96.4103,
-      "cluster_score": 60.8
+      "cluster_score": 60.8,
+      "consecutive_miss": 45
     },
     {
       "number": 9,
@@ -291,7 +331,8 @@
       "is_recommended": false,
       "momentum_score": 68.0,
       "recency_score": 87.4103,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 18
     },
     {
       "number": 29,
@@ -302,7 +343,8 @@
       "is_recommended": false,
       "momentum_score": 68.0,
       "recency_score": 36.4103,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 6
     },
     {
       "number": 18,
@@ -313,7 +355,8 @@
       "is_recommended": false,
       "momentum_score": 80.0,
       "recency_score": 90.7436,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 28
     },
     {
       "number": 16,
@@ -324,7 +367,8 @@
       "is_recommended": false,
       "momentum_score": 74.0,
       "recency_score": 88.0769,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 20
     },
     {
       "number": 23,
@@ -335,7 +379,8 @@
       "is_recommended": false,
       "momentum_score": 62.0,
       "recency_score": 88.7436,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 22
     },
     {
       "number": 8,
@@ -346,7 +391,8 @@
       "is_recommended": false,
       "momentum_score": 62.0,
       "recency_score": 22.7436,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 4
     },
     {
       "number": 24,
@@ -357,7 +403,8 @@
       "is_recommended": false,
       "momentum_score": 80.0,
       "recency_score": 81.0769,
-      "cluster_score": 53.6
+      "cluster_score": 53.6,
+      "consecutive_miss": 14
     },
     {
       "number": 22,
@@ -368,7 +415,8 @@
       "is_recommended": false,
       "momentum_score": 56.0,
       "recency_score": 96.0769,
-      "cluster_score": 53.6
+      "cluster_score": 53.6,
+      "consecutive_miss": 44
     },
     {
       "number": 31,
@@ -379,7 +427,8 @@
       "is_recommended": false,
       "momentum_score": 56.0,
       "recency_score": 0.7436,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 2
     },
     {
       "number": 17,
@@ -390,7 +439,8 @@
       "is_recommended": false,
       "momentum_score": 44.0,
       "recency_score": 47.0769,
-      "cluster_score": 60.8
+      "cluster_score": 60.8,
+      "consecutive_miss": 8
     },
     {
       "number": 3,
@@ -401,7 +451,8 @@
       "is_recommended": false,
       "momentum_score": 14.0,
       "recency_score": 47.0769,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 8
     },
     {
       "number": 6,
@@ -412,7 +463,8 @@
       "is_recommended": false,
       "momentum_score": 32.0,
       "recency_score": 36.4103,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 6
     },
     {
       "number": 13,
@@ -423,7 +475,8 @@
       "is_recommended": false,
       "momentum_score": 32.0,
       "recency_score": 36.4103,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 6
     },
     {
       "number": 30,
@@ -434,7 +487,8 @@
       "is_recommended": false,
       "momentum_score": 32.0,
       "recency_score": 0.0,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 0
     },
     {
       "number": 4,
@@ -445,7 +499,8 @@
       "is_recommended": false,
       "momentum_score": 44.0,
       "recency_score": 0.7436,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 2
     },
     {
       "number": 15,
@@ -456,7 +511,8 @@
       "is_recommended": false,
       "momentum_score": 32.0,
       "recency_score": 0.0,
-      "cluster_score": 60.8
+      "cluster_score": 60.8,
+      "consecutive_miss": 0
     },
     {
       "number": 10,
@@ -467,7 +523,8 @@
       "is_recommended": false,
       "momentum_score": 26.0,
       "recency_score": 22.7436,
-      "cluster_score": 58.8
+      "cluster_score": 58.8,
+      "consecutive_miss": 4
     },
     {
       "number": 36,
@@ -478,7 +535,8 @@
       "is_recommended": false,
       "momentum_score": 0.0,
       "recency_score": 0.0,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 0
     },
     {
       "number": 11,
@@ -489,7 +547,8 @@
       "is_recommended": false,
       "momentum_score": 14.0,
       "recency_score": 0.0,
-      "cluster_score": 62.4
+      "cluster_score": 62.4,
+      "consecutive_miss": 0
     },
     {
       "number": 33,
@@ -500,7 +559,8 @@
       "is_recommended": false,
       "momentum_score": 2.0,
       "recency_score": 47.0769,
-      "cluster_score": 54.0
+      "cluster_score": 54.0,
+      "consecutive_miss": 8
     },
     {
       "number": 26,
@@ -511,7 +571,8 @@
       "is_recommended": true,
       "momentum_score": 20.0,
       "recency_score": 22.7436,
-      "cluster_score": 53.6
+      "cluster_score": 53.6,
+      "consecutive_miss": 4
     },
     {
       "number": 32,
@@ -522,7 +583,8 @@
       "is_recommended": true,
       "momentum_score": 0.0,
       "recency_score": 0.0,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 2
     },
     {
       "number": 34,
@@ -533,7 +595,8 @@
       "is_recommended": true,
       "momentum_score": 0.0,
       "recency_score": 0.0,
-      "cluster_score": 50.4
+      "cluster_score": 50.4,
+      "consecutive_miss": 0
     },
     {
       "number": 21,
@@ -544,7 +607,8 @@
       "is_recommended": true,
       "momentum_score": 0.0,
       "recency_score": 0.0,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 2
     },
     {
       "number": 14,
@@ -555,7 +619,8 @@
       "is_recommended": true,
       "momentum_score": 0.0,
       "recency_score": 0.0,
-      "cluster_score": 57.2
+      "cluster_score": 57.2,
+      "consecutive_miss": 2
     }
   ],
   "backtest": {
@@ -581,12 +646,25 @@
         11,
         3
       ],
+      "top2_excluded": [
+        36,
+        21
+      ],
+      "top4_excluded": [
+        36,
+        21,
+        6,
+        7
+      ],
       "actual": [
         6,
         8,
         18,
         29,
         31
+      ],
+      "hits": [
+        6
       ]
     },
     {
@@ -604,13 +682,24 @@
         3,
         34
       ],
+      "top2_excluded": [
+        36,
+        21
+      ],
+      "top4_excluded": [
+        36,
+        21,
+        2,
+        7
+      ],
       "actual": [
         6,
         8,
         18,
         29,
         31
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 994,
@@ -627,11 +716,24 @@
         3,
         23
       ],
+      "top2_excluded": [
+        36,
+        27
+      ],
+      "top4_excluded": [
+        36,
+        27,
+        37,
+        21
+      ],
       "actual": [
         4,
         5,
         6,
         34,
+        36
+      ],
+      "hits": [
         36
       ]
     },
@@ -650,13 +752,24 @@
         3,
         22
       ],
+      "top2_excluded": [
+        27,
+        37
+      ],
+      "top4_excluded": [
+        27,
+        37,
+        21,
+        7
+      ],
       "actual": [
         4,
         5,
         6,
         34,
         36
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 996,
@@ -673,13 +786,24 @@
         26,
         3
       ],
+      "top2_excluded": [
+        27,
+        37
+      ],
+      "top4_excluded": [
+        27,
+        37,
+        7,
+        2
+      ],
       "actual": [
         12,
         16,
         24,
         28,
         36
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 997,
@@ -696,13 +820,24 @@
         26,
         3
       ],
+      "top2_excluded": [
+        37,
+        27
+      ],
+      "top4_excluded": [
+        37,
+        27,
+        7,
+        21
+      ],
       "actual": [
         12,
         16,
         24,
         28,
         36
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 998,
@@ -719,12 +854,27 @@
         23,
         17
       ],
+      "top2_excluded": [
+        37,
+        27
+      ],
+      "top4_excluded": [
+        37,
+        27,
+        21,
+        2
+      ],
       "actual": [
         5,
         17,
         23,
         25,
         29
+      ],
+      "hits": [
+        17,
+        23,
+        25
       ]
     },
     {
@@ -742,13 +892,24 @@
         14,
         11
       ],
+      "top2_excluded": [
+        37,
+        27
+      ],
+      "top4_excluded": [
+        37,
+        27,
+        21,
+        2
+      ],
       "actual": [
         5,
         17,
         23,
         25,
         29
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1000,
@@ -765,11 +926,24 @@
         11,
         38
       ],
+      "top2_excluded": [
+        37,
+        27
+      ],
+      "top4_excluded": [
+        37,
+        27,
+        21,
+        35
+      ],
       "actual": [
         8,
         10,
         15,
         16,
+        37
+      ],
+      "hits": [
         37
       ]
     },
@@ -788,13 +962,24 @@
         2,
         11
       ],
+      "top2_excluded": [
+        27,
+        35
+      ],
+      "top4_excluded": [
+        27,
+        35,
+        39,
+        21
+      ],
       "actual": [
         8,
         10,
         15,
         16,
         37
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1002,
@@ -811,12 +996,25 @@
         38,
         11
       ],
+      "top2_excluded": [
+        27,
+        35
+      ],
+      "top4_excluded": [
+        27,
+        35,
+        39,
+        7
+      ],
       "actual": [
         9,
         20,
         27,
         28,
         30
+      ],
+      "hits": [
+        27
       ]
     },
     {
@@ -834,13 +1032,24 @@
         38,
         13
       ],
+      "top2_excluded": [
+        35,
+        1
+      ],
+      "top4_excluded": [
+        35,
+        1,
+        7,
+        39
+      ],
       "actual": [
         9,
         20,
         27,
         28,
         30
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1004,
@@ -857,12 +1066,27 @@
         21,
         13
       ],
+      "top2_excluded": [
+        31,
+        35
+      ],
+      "top4_excluded": [
+        31,
+        35,
+        1,
+        7
+      ],
       "actual": [
         1,
         5,
         7,
         13,
         25
+      ],
+      "hits": [
+        1,
+        7,
+        13
       ]
     },
     {
@@ -880,13 +1104,24 @@
         38,
         6
       ],
+      "top2_excluded": [
+        31,
+        35
+      ],
+      "top4_excluded": [
+        31,
+        35,
+        2,
+        32
+      ],
       "actual": [
         1,
         5,
         7,
         13,
         25
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1006,
@@ -903,11 +1138,26 @@
         8,
         3
       ],
+      "top2_excluded": [
+        2,
+        6
+      ],
+      "top4_excluded": [
+        2,
+        6,
+        4,
+        32
+      ],
       "actual": [
         4,
         11,
         24,
         25,
+        31
+      ],
+      "hits": [
+        4,
+        11,
         31
       ]
     },
@@ -926,13 +1176,24 @@
         18,
         3
       ],
+      "top2_excluded": [
+        2,
+        6
+      ],
+      "top4_excluded": [
+        2,
+        6,
+        32,
+        36
+      ],
       "actual": [
         4,
         11,
         24,
         25,
         31
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1008,
@@ -949,13 +1210,24 @@
         18,
         14
       ],
+      "top2_excluded": [
+        6,
+        2
+      ],
+      "top4_excluded": [
+        6,
+        2,
+        36,
+        12
+      ],
       "actual": [
         1,
         7,
         28,
         29,
         34
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1009,
@@ -972,13 +1244,24 @@
         18,
         14
       ],
+      "top2_excluded": [
+        6,
+        2
+      ],
+      "top4_excluded": [
+        6,
+        2,
+        12,
+        36
+      ],
       "actual": [
         1,
         7,
         28,
         29,
         34
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1010,
@@ -995,11 +1278,26 @@
         18,
         14
       ],
+      "top2_excluded": [
+        6,
+        2
+      ],
+      "top4_excluded": [
+        6,
+        2,
+        36,
+        12
+      ],
       "actual": [
         2,
         14,
         25,
         29,
+        36
+      ],
+      "hits": [
+        2,
+        14,
         36
       ]
     },
@@ -1018,13 +1316,24 @@
         26,
         35
       ],
+      "top2_excluded": [
+        6,
+        8
+      ],
+      "top4_excluded": [
+        6,
+        8,
+        12,
+        18
+      ],
       "actual": [
         2,
         14,
         25,
         29,
         36
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1012,
@@ -1041,12 +1350,26 @@
         17,
         37
       ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        10
+      ],
       "actual": [
         3,
         17,
         21,
         32,
         33
+      ],
+      "hits": [
+        3,
+        17
       ]
     },
     {
@@ -1064,13 +1387,24 @@
         38,
         20
       ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        10
+      ],
       "actual": [
         3,
         17,
         21,
         32,
         33
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1014,
@@ -1087,12 +1421,25 @@
         30,
         16
       ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        37
+      ],
       "actual": [
         6,
         13,
         21,
         29,
         34
+      ],
+      "hits": [
+        6
       ]
     },
     {
@@ -1110,13 +1457,24 @@
         16,
         18
       ],
+      "top2_excluded": [
+        8,
+        12
+      ],
+      "top4_excluded": [
+        8,
+        12,
+        37,
+        10
+      ],
       "actual": [
         6,
         13,
         21,
         29,
         34
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1016,
@@ -1133,12 +1491,26 @@
         30,
         9
       ],
+      "top2_excluded": [
+        8,
+        12
+      ],
+      "top4_excluded": [
+        8,
+        12,
+        5,
+        37
+      ],
       "actual": [
         8,
         10,
         14,
         26,
         36
+      ],
+      "hits": [
+        8,
+        10
       ]
     },
     {
@@ -1156,12 +1528,25 @@
         38,
         30
       ],
+      "top2_excluded": [
+        12,
+        5
+      ],
+      "top4_excluded": [
+        12,
+        5,
+        8,
+        37
+      ],
       "actual": [
         8,
         10,
         14,
         26,
         36
+      ],
+      "hits": [
+        8
       ]
     },
     {
@@ -1179,12 +1564,26 @@
         15,
         31
       ],
+      "top2_excluded": [
+        5,
+        12
+      ],
+      "top4_excluded": [
+        5,
+        12,
+        4,
+        37
+      ],
       "actual": [
         4,
         14,
         21,
         31,
         32
+      ],
+      "hits": [
+        4,
+        31
       ]
     },
     {
@@ -1202,13 +1601,24 @@
         1,
         15
       ],
+      "top2_excluded": [
+        5,
+        12
+      ],
+      "top4_excluded": [
+        5,
+        12,
+        7,
+        11
+      ],
       "actual": [
         4,
         14,
         21,
         31,
         32
-      ]
+      ],
+      "hits": []
     },
     {
       "period": 1020,
@@ -1225,12 +1635,25 @@
         9,
         35
       ],
+      "top2_excluded": [
+        7,
+        5
+      ],
+      "top4_excluded": [
+        7,
+        5,
+        1,
+        12
+      ],
       "actual": [
         11,
         15,
         30,
         34,
         36
+      ],
+      "hits": [
+        11
       ]
     },
     {
@@ -1248,13 +1671,24 @@
         12,
         39
       ],
+      "top2_excluded": [
+        7,
+        27
+      ],
+      "top4_excluded": [
+        7,
+        27,
+        28,
+        37
+      ],
       "actual": [
         11,
         15,
         30,
         34,
         36
-      ]
+      ],
+      "hits": []
     }
   ],
   "monthly_accuracy": [
@@ -1329,6 +1763,363 @@
       "accuracy_pct": 88.08,
       "draws_count": 26,
       "baseline_pct": 87.18
+    }
+  ],
+  "recent_10_days": [
+    {
+      "date": "2026-06-24",
+      "winning_numbers": [
+        3,
+        17,
+        21,
+        32,
+        33
+      ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        10
+      ],
+      "top10_excluded": [
+        8,
+        6,
+        12,
+        10,
+        15,
+        3,
+        18,
+        16,
+        17,
+        37
+      ],
+      "top10_accuracy_pct": 80.0,
+      "hits": [
+        3,
+        17
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "winning_numbers": [
+        3,
+        17,
+        21,
+        32,
+        33
+      ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        10
+      ],
+      "top10_excluded": [
+        8,
+        6,
+        12,
+        10,
+        15,
+        16,
+        18,
+        37,
+        38,
+        20
+      ],
+      "top10_accuracy_pct": 100.0,
+      "hits": []
+    },
+    {
+      "date": "2026-06-25",
+      "winning_numbers": [
+        6,
+        13,
+        21,
+        29,
+        34
+      ],
+      "top2_excluded": [
+        8,
+        6
+      ],
+      "top4_excluded": [
+        8,
+        6,
+        12,
+        37
+      ],
+      "top10_excluded": [
+        8,
+        6,
+        12,
+        37,
+        20,
+        10,
+        38,
+        27,
+        30,
+        16
+      ],
+      "top10_accuracy_pct": 90.0,
+      "hits": [
+        6
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "winning_numbers": [
+        6,
+        13,
+        21,
+        29,
+        34
+      ],
+      "top2_excluded": [
+        8,
+        12
+      ],
+      "top4_excluded": [
+        8,
+        12,
+        37,
+        10
+      ],
+      "top10_excluded": [
+        8,
+        12,
+        37,
+        10,
+        20,
+        38,
+        27,
+        30,
+        16,
+        18
+      ],
+      "top10_accuracy_pct": 100.0,
+      "hits": []
+    },
+    {
+      "date": "2026-06-26",
+      "winning_numbers": [
+        8,
+        10,
+        14,
+        26,
+        36
+      ],
+      "top2_excluded": [
+        8,
+        12
+      ],
+      "top4_excluded": [
+        8,
+        12,
+        5,
+        37
+      ],
+      "top10_excluded": [
+        8,
+        12,
+        5,
+        37,
+        10,
+        27,
+        20,
+        38,
+        30,
+        9
+      ],
+      "top10_accuracy_pct": 80.0,
+      "hits": [
+        8,
+        10
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "winning_numbers": [
+        8,
+        10,
+        14,
+        26,
+        36
+      ],
+      "top2_excluded": [
+        12,
+        5
+      ],
+      "top4_excluded": [
+        12,
+        5,
+        8,
+        37
+      ],
+      "top10_excluded": [
+        12,
+        5,
+        8,
+        37,
+        27,
+        20,
+        9,
+        15,
+        38,
+        30
+      ],
+      "top10_accuracy_pct": 90.0,
+      "hits": [
+        8
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "winning_numbers": [
+        4,
+        14,
+        21,
+        31,
+        32
+      ],
+      "top2_excluded": [
+        5,
+        12
+      ],
+      "top4_excluded": [
+        5,
+        12,
+        4,
+        37
+      ],
+      "top10_excluded": [
+        5,
+        12,
+        4,
+        37,
+        11,
+        20,
+        9,
+        27,
+        15,
+        31
+      ],
+      "top10_accuracy_pct": 80.0,
+      "hits": [
+        4,
+        31
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "winning_numbers": [
+        4,
+        14,
+        21,
+        31,
+        32
+      ],
+      "top2_excluded": [
+        5,
+        12
+      ],
+      "top4_excluded": [
+        5,
+        12,
+        7,
+        11
+      ],
+      "top10_excluded": [
+        5,
+        12,
+        7,
+        11,
+        9,
+        20,
+        27,
+        37,
+        1,
+        15
+      ],
+      "top10_accuracy_pct": 100.0,
+      "hits": []
+    },
+    {
+      "date": "2026-06-29",
+      "winning_numbers": [
+        11,
+        15,
+        30,
+        34,
+        36
+      ],
+      "top2_excluded": [
+        7,
+        5
+      ],
+      "top4_excluded": [
+        7,
+        5,
+        1,
+        12
+      ],
+      "top10_excluded": [
+        7,
+        5,
+        1,
+        12,
+        27,
+        37,
+        28,
+        11,
+        9,
+        35
+      ],
+      "top10_accuracy_pct": 90.0,
+      "hits": [
+        11
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "winning_numbers": [
+        11,
+        15,
+        30,
+        34,
+        36
+      ],
+      "top2_excluded": [
+        7,
+        27
+      ],
+      "top4_excluded": [
+        7,
+        27,
+        28,
+        37
+      ],
+      "top10_excluded": [
+        7,
+        27,
+        28,
+        37,
+        5,
+        1,
+        20,
+        35,
+        12,
+        39
+      ],
+      "top10_accuracy_pct": 100.0,
+      "hits": []
     }
   ],
   "backtest_history": [
