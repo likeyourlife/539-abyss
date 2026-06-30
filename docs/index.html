@@ -424,7 +424,7 @@ function renderExcludeBalls(cid, items, hl2=false) {
   c.innerHTML = items.map((item, idx) => {
     const n = (item.number || parseInt(item.label)).toString().padStart(2, '0');
     const miss = item.consecutive_miss || 0;
-    const cls = type === 'exclude' && hl2 && idx < 2 ? ' highlight' : '';
+    const cls = hl2 && idx < 2 ? ' highlight' : '';
     return `<div class="ball exclude${cls}">${n}<span class="miss-tag">${miss}期</span></div>`;
   }).join('');
 }
