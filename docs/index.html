@@ -78,10 +78,13 @@ canvas{max-width:100%}
     </div>
   </header>
 
-  <div class="btn-group">
+  <div class="btn-group" id="btn-group">
     <button class="btn btn-primary" id="btn-run" onclick="runAnalysis()">▶ 运行预测引擎</button>
     <button class="btn btn-secondary" id="btn-update" onclick="updateData()">↻ 更新数据</button>
     <button class="btn btn-secondary" id="btn-backtest" onclick="backtestCompare()">🏆 策略对比</button>
+    <!-- 离线模式按钮 -->
+    <button class="btn btn-primary" id="btn-refresh" style="display:none" onclick="refreshOfflineData()">↻ 同步最新数据</button>
+    <button class="btn btn-secondary" id="btn-backtest-offline" style="display:none" onclick="showStrategyCard()">🏆 策略对比</button>
   </div>
 
   <div class="progress-container" id="progress-container" style="display:none">
@@ -182,15 +185,19 @@ async function detectMode() {
       document.getElementById('btn-run').style.display = '';
       document.getElementById('btn-update').style.display = '';
       document.getElementById('btn-backtest').style.display = '';
+      document.getElementById('btn-refresh').style.display = 'none';
+      document.getElementById('btn-backtest-offline').style.display = 'none';
       return;
     }
   } catch(e) {}
   isOnlineMode = false;
-  document.getElementById('mode-badge').textContent = '离线模式(静态数据)';
-  document.getElementById('mode-badge').className = 'mode-badge offline';
+  document.getElementById('mode-badge').textContent = '在线版(数据每日自动更新)';
+  document.getElementById('mode-badge').className = 'mode-badge online';
   document.getElementById('btn-run').style.display = 'none';
   document.getElementById('btn-update').style.display = 'none';
   document.getElementById('btn-backtest').style.display = 'none';
+  document.getElementById('btn-refresh').style.display = '';
+  document.getElementById('btn-backtest-offline').style.display = '';
 }
 
 async function loadData() {
@@ -207,6 +214,43 @@ async function loadData() {
     if (resp.ok) { renderDashboard(await resp.json()); showToast('数据加载成功(离线)', 'success'); return; }
   } catch(e) {}
   showToast('暂无数据，请启动后端服务或运行 generate_dashboard_data.py', 'info');
+}
+
+async function refreshOfflineData() {
+  const btn = document.getElementById('btn-refresh');
+  btn.disabled = true; btn.textContent = '⏳ 同步中...';
+  try {
+    // 使用时间戳绕过浏览器缓存，获取自动化推送的最新数据
+    const ts = new Date().getTime();
+    const resp = await fetch('dashboard_data.json?t=' + ts);
+    if (resp.ok) {
+      const data = await resp.json();
+      renderDashboard(data);
+      showToast('数据已同步至最新（更新于 ' + data.generated_at.substring(0, 16) + '）', 'success');
+    } else {
+      showToast('数据同步失败', 'error');
+    }
+  } catch(e) {
+    showToast('网络错误，请稍后重试', 'error');
+  }
+  btn.disabled = false; btn.textContent = '↻ 同步最新数据';
+}
+
+function showStrategyCard() {
+  // 离线模式策略对比：直接从当前渲染的backtest_history显示
+  const card = document.getElementById('strategy-card');
+  if (card.style.display !== 'none' && card.style.display !== '') {
+    card.style.display = 'none';
+    showToast('策略对比已隐藏', 'info');
+  } else {
+    // 如果已经有数据，直接显示；否则提示
+    if (document.getElementById('strategy-list').innerHTML.trim()) {
+      card.style.display = 'block';
+      showToast('策略对比已显示', 'success');
+    } else {
+      showToast('暂无策略对比数据，请先同步数据', 'info');
+    }
+  }
 }
 
 async function runAnalysis() {
